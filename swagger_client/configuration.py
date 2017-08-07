@@ -33,7 +33,7 @@ class Configuration(object):
         Constructor
         """
         # Default Base url
-        self.host = "http://localhost:8080/v2"
+        self.host = "http://145.136.242.167:8081/v2"
         # Temp file folder for downloading files
         self.temp_folder_path = None
 
