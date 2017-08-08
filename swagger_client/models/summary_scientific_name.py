@@ -117,7 +117,7 @@ class SummaryScientificName(object):
         :param taxonomic_status: The taxonomic_status of this SummaryScientificName.
         :type: str
         """
-        allowed_values = ["ACCEPTED_NAME", "SYNONYM", "BASIONYM", "HOMONYM", "AMBIGUOUS_SYNONYM", "MISAPPLIED_NAME", "MISSPELLED_NAME", "PROVISIONALLY_ACCEPTED"]
+        allowed_values = ["accepted name", "synonym", "basionym", "homonym", "ambiguous synonym", "misapplied name", "misspelled name", "provisionally accepted name"]
         if taxonomic_status not in allowed_values:
             raise ValueError(
                 "Invalid value for `taxonomic_status` ({0}), must be one of {1}"
